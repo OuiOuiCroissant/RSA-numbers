@@ -1,0 +1,14 @@
+{
+  "name": "rsa-lab",
+  "version": "1.0.0",
+  "description": "RSA algorithm for numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Vlasenko",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.46"
+  }
+}

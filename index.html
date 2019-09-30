@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="node_modules\big-integer\BigInteger.js"></script>
+    <script type="text/javascript" src="script\index.js"></script>
+  </head>
+  <body>
+    <label for="message"><p><b>Message:</b></p></label>
+    <input type="text" placeholder="Enter message..." id="message">
+    <input type="button" onclick="encode()" value="Encode">
+    <pre><b>Encoded message: </b><span id="encoded1"></span></pre>
+    <pre><b>Decoded message: </b><span id="decoded1"></span></pre>
+    <hr>
+    <label for="message"><p><b>Encoded message:</b></p></label>
+    <input type="text" placeholder="Enter encoded message..." id="crypted_message">
+    <input type="button" onclick="decode()" value="Decode">
+    <pre><b>Decoded message: </b><span id="encoded2"></span></pre>
+    <pre><b>Encoded message: </b><span id="decoded2"></span></pre>
+  </body>
+</html>
