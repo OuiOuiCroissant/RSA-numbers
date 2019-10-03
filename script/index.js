@@ -71,7 +71,7 @@ function encode() {
   } else {
   for (let item of M) {
     if (item >= n) {
-      alert ("Not all numbers have permited length!");
+      alert ("Not all numbers have permited value!");
     } else {
     C.push(+encrypt(item, n, e));
     }
@@ -95,7 +95,7 @@ function decode() {
     alert ("You can not encode more then 10 numbers");
   } else {
   for (let item of C) {
-    if (item >= d) {
+    if (String(item).length > String(d).length) {
       alert ("Not all numbers have permited length!");
     } else {
     M.push(+decrypt(item, d, n));
